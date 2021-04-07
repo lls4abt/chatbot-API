@@ -7,7 +7,7 @@ This chatbot was created using uvicorn and FastAPI. Including in this repository
 # The endpoints
 The atrology chatbox includes several different endpoints from which the user can obtain information from.
   
-## / 
+### / 
 This initial endpoint gives the user a short introduction and some endpoints to try out
   
 ## /signs 
