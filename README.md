@@ -16,7 +16,7 @@ This endpoint lists all the zodiac signs and what range of dates they match up w
 ## /signs/{sign} 
 This endpoint gives more specific information about the particular sign entered. For example, "/signs/aquarius" will provide the user with information about the Aquarius Zodiac sign including some characteristics and the signs Ruler.
    
-## /horoscope 
+### /horoscope 
 This endpoint reads the user it's daily horoscope. This endpoint requires two query string parameters: sign and when. Sign can be any of the twelvezodiac signs (capitilization does not matter) and when can either be "today," "tomorrow," or "yesterday" (again, capitilization does not matter). If the user forgets to include one or both of the query string parameters, the chatbot will communicate this with the user.
 
 ## /signs/{sign}/learnmore
