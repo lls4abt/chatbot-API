@@ -26,6 +26,7 @@ This endpoint displays a webpage where the user can get more information about t
 This endpoint returns a link that leads to an image of the specific sign entered. 
 
 # Error Handling
+This Api handles several different types of errors. If the user enters a non-existing sign, the chatbot will prompt it to enter one of the twelve existing signs. If a query line parameter is forgotten or incorrectly entered at the /horoscope endpoint, the chatbot will remind the user to enter all required parameters. If a non-existing endpoint is entered, the chatbot will present the user with valid endpoints to try. 
 
                  
       
