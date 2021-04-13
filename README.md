@@ -24,5 +24,8 @@ This endpoint displays a webpage where the user can get more information about t
 
 ### /signs/{sign}/image
 This endpoint returns a link that leads to an image of the specific sign entered. 
+
+# Error Handling
+
                  
       
